@@ -8,6 +8,10 @@ public class Passerotto extends Animale{
     public void mangia() {
         System.out.println("Vermi");
     }
+
+    public void vola(){
+        System.out.println("Sto volando!");
+    }
     public Passerotto() {
         verso();
         mangia();

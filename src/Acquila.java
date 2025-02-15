@@ -9,6 +9,10 @@ public class Acquila extends Animale{
         System.out.println("Piccoli roditori");
     }
 
+    public void vola(){
+        System.out.println("Sto volando!");
+    }
+
     public Acquila() {
         verso();
         mangia();

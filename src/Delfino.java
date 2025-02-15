@@ -9,6 +9,10 @@ public class Delfino extends Animale{
         System.out.println("Pesciolini");
     }
 
+    public void nuota(){
+        System.out.println("Sto nuotando");
+    }
+
     public Delfino() {
         verso();
         mangia();
