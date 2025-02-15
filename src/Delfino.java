@@ -1,4 +1,4 @@
-public class Delfino extends Animale{
+public class Delfino extends Animale implements Nuotante{
     @Override
     public void verso(){
         System.out.println("Ih Ih IHIHHIHIH");
@@ -9,6 +9,7 @@ public class Delfino extends Animale{
         System.out.println("Pesciolini");
     }
 
+    @Override
     public void nuota(){
         System.out.println("Sto nuotando");
     }
