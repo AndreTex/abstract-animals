@@ -7,5 +7,6 @@ public class Main {
 
         p.vola();
         d.nuota();
+
     }
 }
